@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ShopSmart Analytics</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+</head>
+<body>
+<header class="topbar">
+  <div class="brand">
+    <span class="logo">🛒</span>
+    <div>
+      <h1>ShopSmart Analytics</h1>
+      <p class="muted">Predict customer behavior · recommend products · manage inventory</p>
+    </div>
+  </div>
+  <nav>
+    <a href="#sales">Sales forecast</a>
+    <a href="#reviews">Reviews</a>
+    <a href="#recs">Recommendations</a>
+    <a href="#insights">Customer insights</a>
+    <a href="#models">Models</a>
+  </nav>
+</header>
+
+<main>
+  <!-- KPI tiles -->
+  <section class="kpis" id="kpis">
+    <div class="tile"><span class="label">Revenue last month</span><span class="value" id="k-rev">–</span></div>
+    <div class="tile"><span class="label">Forecast next month <em>Linear Regression</em></span><span class="value" id="k-next">–</span><span class="delta" id="k-delta"></span></div>
+    <div class="tile"><span class="label">Positive reviews <em>Naive Bayes</em></span><span class="value" id="k-pos">–</span></div>
+    <div class="tile"><span class="label">Likely buyers <em>SVM</em></span><span class="value" id="k-buy">–</span><span class="sub" id="k-buy-sub"></span></div>
+    <div class="tile"><span class="label">Promo responders <em>Decision Tree</em></span><span class="value" id="k-promo">–</span><span class="sub" id="k-promo-sub"></span></div>
+    <div class="tile"><span class="label">Avg purchase probability <em>ANN</em></span><span class="value" id="k-ann">–</span></div>
+  </section>
+
+  <!-- 1. Linear Regression -->
+  <section class="card" id="sales">
+    <div class="card-head">
+      <div>
+        <h2>Sales forecast</h2>
+        <p class="muted">Linear Regression on trend, season and ad spend — predicts the next 6 months.</p>
+      </div>
+      <span class="badge">Linear Regression</span>
+    </div>
+    <div class="grid-2">
+      <div>
+        <h3>Total revenue: history &amp; forecast</h3>
+        <div class="legend"><span><i class="sw s1"></i>Actual</span><span><i class="sw s1 dashed"></i>Forecast</span></div>
+        <div class="chart-box"><canvas id="revChart"></canvas></div>
+      </div>
+      <div>
+        <div class="controls">
+          <label>Product <select id="productSel"></select></label>
+          <label>Monthly ad spend: <b id="spendVal">$1,750</b>
+            <input type="range" id="spendRange" min="0" max="5000" step="250" value="1750"></label>
+        </div>
+        <div class="legend"><span><i class="sw s1"></i>Units sold</span><span><i class="sw s1 dashed"></i>Forecast</span></div>
+        <div class="chart-box"><canvas id="unitChart"></canvas></div>
+        <div class="table-wrap"><table class="table compact" id="forecastTable"></table></div>
+        <p class="muted small" id="coefText"></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 2. Naive Bayes -->
+  <section class="card" id="reviews">
+    <div class="card-head">
+      <div>
+        <h2>Review classification</h2>
+        <p class="muted">Multinomial Naive Bayes on word counts labels each review positive or negative.</p>
+      </div>
+      <span class="badge">Naive Bayes</span>
+    </div>
+    <div class="grid-2">
+      <div>
+        <h3>Sentiment by category</h3>
+        <div class="legend"><span><i class="sw pos"></i>Positive</span><span><i class="sw neg"></i>Negative</span></div>
+        <div class="chart-box"><canvas id="sentChart"></canvas></div>
+        <div class="words">
+          <div><h4>Most positive words</h4><div id="posWords" class="chips"></div></div>
+          <div><h4>Most negative words</h4><div id="negWords" class="chips"></div></div>
+        </div>
+      </div>
+      <div>
+        <h3>Try it: classify a review</h3>
+        <textarea id="reviewText" rows="3" placeholder="e.g. Arrived late and the strap broke after a week">The quality is excellent and delivery was fast, highly recommend!</textarea>
+        <button id="reviewBtn">Classify review</button>
+        <div id="reviewResult" class="result"></div>
+        <h3 class="mt">Latest reviews</h3>
+        <ul id="recentReviews" class="review-list"></ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- 3. KNN -->
+  <section class="card" id="recs">
+    <div class="card-head">
+      <div>
+        <h2>Product recommendations</h2>
+        <p class="muted">K-Nearest Neighbors (cosine similarity) on the customer × product ratings matrix.</p>
+      </div>
+      <span class="badge">KNN</span>
+    </div>
+    <div class="grid-2">
+      <div>
+        <div class="controls"><label>Customer <select id="customerSel"></select></label></div>
+        <h4>Already rated</h4>
+        <div id="ratedList" class="chips"></div>
+        <h4>Recommended for this customer</h4>
+        <ol id="recList" class="rec-list"></ol>
+        <h4>Most similar customers</h4>
+        <div id="neighList" class="chips"></div>
+      </div>
+      <div>
+        <div class="controls"><label>Customers who liked… <select id="simProductSel"></select></label></div>
+        <h4>…also liked</h4>
+        <ol id="simList" class="rec-list"></ol>
+      </div>
+    </div>
+  </section>
+
+  <!-- 4-6. SVM, Decision Tree, ANN -->
+  <section class="card" id="insights">
+    <div class="card-head">
+      <div>
+        <h2>Customer insights</h2>
+        <p class="muted">Who will buy, who will respond to a promotion, and how likely each customer is to purchase.</p>
+      </div>
+    </div>
+
+    <div class="grid-3">
+      <div class="panel">
+        <div class="panel-head"><h3>Will they purchase?</h3><span class="badge">SVM</span></div>
+        <p class="muted small">RBF-kernel Support Vector Machine on profile &amp; history.</p>
+        <form id="svmForm" class="form"></form>
+        <button data-form="svmForm">Classify customer</button>
+        <div id="svmResult" class="result"></div>
+      </div>
+
+      <div class="panel">
+        <div class="panel-head"><h3>Respond to a promotion?</h3><span class="badge">Decision Tree</span></div>
+        <p class="muted small">Depth-4 tree — readable rules for the marketing team.</p>
+        <form id="treeForm" class="form"></form>
+        <button data-form="treeForm">Check customer</button>
+        <div id="treeResult" class="result"></div>
+      </div>
+
+      <div class="panel">
+        <div class="panel-head"><h3>Purchase probability</h3><span class="badge">ANN</span></div>
+        <p class="muted small">Neural network (16→8 hidden units) on browsing behavior.</p>
+        <form id="annForm" class="form"></form>
+        <button data-form="annForm">Predict probability</button>
+        <div id="annResult" class="result"></div>
+      </div>
+    </div>
+
+    <div class="grid-2 mt">
+      <div>
+        <h3>What drives promotion response</h3>
+        <p class="muted small">Decision Tree feature importance</p>
+        <div class="chart-box short"><canvas id="impChart"></canvas></div>
+        <details><summary>Show the tree's rules</summary><pre id="treeRules"></pre></details>
+      </div>
+      <div>
+        <h3>Purchase probability across all customers</h3>
+        <p class="muted small">ANN predicted probability, number of customers per bucket</p>
+        <div class="chart-box short"><canvas id="annChart"></canvas></div>
+      </div>
+    </div>
+
+    <h3 class="mt">Highest-intent customers</h3>
+    <div class="table-wrap"><table class="table" id="topTable"></table></div>
+  </section>
+
+  <!-- Model performance -->
+  <section class="card" id="models">
+    <div class="card-head">
+      <div>
+        <h2>Model performance</h2>
+        <p class="muted">Scores on a held-out test set (25% of data; last 6 months for sales).</p>
+      </div>
+    </div>
+    <div class="table-wrap"><table class="table" id="metricTable"></table></div>
+  </section>
+</main>
+
+<footer class="muted small">ShopSmart Analytics · sample data generated for demonstration · Flask + scikit-learn</footer>
+
+<script src="{{ url_for('static', filename='app.js') }}"></script>
+</body>
+</html>

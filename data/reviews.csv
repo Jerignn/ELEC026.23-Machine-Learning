@@ -1,0 +1,801 @@
+review_id,product_id,text,sentiment
+1,1,Sturdy and reliable. five stars. fits perfectly. compared with other brands.,positive
+2,8,Never buying again. waste of money. cheap material.,negative
+3,12,Smells awful. flimsy and noisy. terrible quality.,negative
+4,12,Stopped working. returned it. it came in a box.,negative
+5,15,Bought this last month. flimsy and noisy. very uncomfortable. battery dies quickly.,negative
+6,8,Ordered for my sister. five stars.,positive
+7,13,Love this product. easy to use.,positive
+8,1,Smells awful. too expensive for what it is. broke after a week.,negative
+9,10,Bought this last month. amazing sound. battery lasts long.,positive
+10,9,Never buying again. flimsy and noisy.,negative
+11,7,Super happy with it. the color is blue. fits perfectly. beautiful design.,positive
+12,12,Fits perfectly. stopped working. the color is blue. disappointed.,negative
+13,11,Stopped working. arrived late.,negative
+14,13,Arrived on time and well packed.,positive
+15,5,Would buy again. used it a few times. excellent quality.,positive
+16,6,Fast delivery. returned it. great value for money.,positive
+17,17,The color is blue. arrived late. battery dies quickly. easy to use. too expensive for what it is.,negative
+18,20,The color is blue. fast delivery.,positive
+19,16,Flimsy and noisy.,negative
+20,17,Great customer service. bought this last month.,positive
+21,12,Battery lasts long.,positive
+22,16,Disappointed. got it on sale.,negative
+23,8,Ordered for my sister. too expensive for what it is. one star. smells awful.,negative
+24,15,Used it a few times. wrong size. disappointed. very uncomfortable.,negative
+25,17,Bought this last month. great value for money.,positive
+26,15,Bought this last month. very comfortable. smells awful.,positive
+27,10,Never buying again. got it on sale. broke after a week. not as described. excellent quality.,negative
+28,19,Got it on sale. one star. cheap material. smells awful.,negative
+29,7,Arrived late. returned it. battery dies quickly.,negative
+30,19,Highly recommend. cheap material. works perfectly. super happy with it.,positive
+31,16,Fell apart. exceeded my expectations. bought this last month. five stars. fast delivery.,positive
+32,3,Not as described. wrong size.,negative
+33,6,Poor customer service. too expensive for what it is. package was damaged. fast delivery.,negative
+34,9,Compared with other brands. do not recommend.,negative
+35,1,Battery lasts long. compared with other brands. sturdy and reliable.,positive
+36,20,Ordered for my sister. highly recommend.,positive
+37,10,One star.,negative
+38,7,Super happy with it. battery lasts long. great customer service.,positive
+39,4,Five stars. compared with other brands.,positive
+40,19,Flimsy and noisy. package was damaged.,negative
+41,1,Fell apart. very uncomfortable. bought this last month.,negative
+42,2,My family loves it.,positive
+43,6,Flimsy and noisy. used it a few times. battery dies quickly.,negative
+44,16,Flimsy and noisy. used it a few times. five stars. stopped working.,negative
+45,9,Battery dies quickly. it came in a box. one star. stopped working.,negative
+46,16,Do not recommend. used it a few times. returned it.,negative
+47,1,Poor customer service. one star.,negative
+48,4,Great value for money. love this product.,positive
+49,7,Bought this last month. waste of money.,negative
+50,11,Fast delivery. it came in a box.,positive
+51,15,Amazing sound. great value for money. fits perfectly.,positive
+52,9,Smells wonderful. cheap material.,negative
+53,1,Arrived on time and well packed. compared with other brands.,positive
+54,8,Fits perfectly. the color is blue.,positive
+55,14,Great customer service. the color is blue. beautiful design. one star. easy to use.,positive
+56,10,Highly recommend. great customer service.,positive
+57,14,Excellent quality.,positive
+58,17,Excellent quality. would buy again. it came in a box.,positive
+59,12,Arrived late.,negative
+60,19,Waste of money. it came in a box. do not recommend. flimsy and noisy.,negative
+61,19,Too expensive for what it is. it came in a box.,negative
+62,5,Very uncomfortable. it came in a box. broke after a week.,negative
+63,5,Super happy with it.,positive
+64,19,My family loves it.,positive
+65,11,Works perfectly. battery lasts long. terrible quality. arrived on time and well packed.,positive
+66,15,Wrong size. stopped working. flimsy and noisy.,negative
+67,14,My family loves it. great customer service. got it on sale.,positive
+68,7,Easy to use. exceeded my expectations. excellent quality. flimsy and noisy.,positive
+69,10,Battery lasts long. amazing sound.,positive
+70,18,Easy to use. terrible quality. fell apart. wrong size.,negative
+71,12,Bought this last month. arrived late.,negative
+72,2,Beautiful design. battery lasts long. it came in a box.,positive
+73,19,Ordered for my sister. fits perfectly. amazing sound. works perfectly.,positive
+74,9,Returned it. fell apart.,negative
+75,2,Great customer service.,positive
+76,11,Used it a few times. super happy with it.,positive
+77,14,Works perfectly. easy to use. bought this last month.,positive
+78,10,Terrible quality. too expensive for what it is. got it on sale.,negative
+79,11,Works perfectly. broke after a week. never buying again. not as described.,negative
+80,2,Smells wonderful. works perfectly. arrived on time and well packed.,positive
+81,6,Excellent quality. highly recommend. would buy again.,positive
+82,17,Works perfectly. ordered for my sister. highly recommend. love this product.,positive
+83,6,Stopped working.,negative
+84,1,Great customer service. great value for money. the color is blue.,positive
+85,4,Broke after a week. fell apart. disappointed.,negative
+86,16,Exceeded my expectations. five stars. fits perfectly.,positive
+87,18,Not as described. fell apart.,negative
+88,10,Love this product. fits perfectly.,positive
+89,10,Arrived late. beautiful design. amazing sound.,positive
+90,6,Compared with other brands. not as described.,negative
+91,20,Package was damaged. wrong size.,negative
+92,6,Used it a few times. love this product. very comfortable. fits perfectly.,positive
+93,16,Easy to use. exceeded my expectations. very comfortable.,positive
+94,15,Flimsy and noisy.,negative
+95,1,Five stars. amazing sound. fast delivery.,positive
+96,1,Sturdy and reliable. exceeded my expectations. never buying again.,positive
+97,14,Got it on sale. too expensive for what it is.,negative
+98,14,Ordered for my sister. exceeded my expectations.,positive
+99,20,One star. terrible quality. fell apart.,negative
+100,5,Got it on sale. super happy with it. excellent quality.,positive
+101,17,Beautiful design. love this product. used it a few times.,positive
+102,19,Smells awful. returned it. bought this last month. cheap material.,negative
+103,15,Five stars.,positive
+104,7,Beautiful design. smells wonderful.,positive
+105,10,Not as described. very comfortable.,positive
+106,6,My family loves it. compared with other brands. amazing sound. great customer service.,positive
+107,20,Love this product.,positive
+108,20,Great value for money. smells awful. do not recommend.,negative
+109,15,Great customer service. five stars. works perfectly.,positive
+110,14,Would buy again. highly recommend. amazing sound. bought this last month.,positive
+111,7,Highly recommend. easy to use. returned it.,positive
+112,18,Sturdy and reliable. five stars. beautiful design. too expensive for what it is.,positive
+113,12,Never buying again. disappointed. terrible quality.,negative
+114,9,Compared with other brands. battery dies quickly. flimsy and noisy. do not recommend.,negative
+115,18,Arrived late. highly recommend.,positive
+116,2,Do not recommend.,negative
+117,19,Arrived on time and well packed. compared with other brands. very comfortable. easy to use.,positive
+118,16,Battery lasts long. highly recommend.,positive
+119,13,Compared with other brands. excellent quality. battery lasts long.,positive
+120,18,Got it on sale. exceeded my expectations. excellent quality. smells wonderful.,positive
+121,8,It came in a box. smells wonderful. battery lasts long.,positive
+122,5,The color is blue. broke after a week. smells awful.,negative
+123,18,Five stars.,positive
+124,19,Great value for money. arrived late.,negative
+125,14,Fast delivery. fits perfectly. got it on sale. returned it.,positive
+126,20,Battery lasts long. fits perfectly. it came in a box.,positive
+127,10,Exceeded my expectations. super happy with it. it came in a box. excellent quality.,positive
+128,14,Fits perfectly. arrived on time and well packed. compared with other brands. love this product.,positive
+129,17,Stopped working. bought this last month. too expensive for what it is.,negative
+130,4,Love this product. fast delivery.,positive
+131,17,Too expensive for what it is.,negative
+132,3,Very comfortable. fast delivery. great customer service.,positive
+133,13,Battery lasts long. works perfectly. it came in a box.,positive
+134,16,It came in a box. super happy with it. excellent quality.,positive
+135,5,Not as described. great value for money. five stars. compared with other brands.,positive
+136,10,Do not recommend. smells awful. poor customer service.,negative
+137,16,Ordered for my sister. works perfectly.,positive
+138,5,One star.,negative
+139,8,Battery lasts long. excellent quality. compared with other brands.,positive
+140,10,Compared with other brands. exceeded my expectations. five stars.,positive
+141,17,Too expensive for what it is. terrible quality. very uncomfortable.,negative
+142,6,Bought this last month. would buy again.,positive
+143,8,Highly recommend. five stars. great customer service.,positive
+144,20,Ordered for my sister. returned it. fell apart. arrived late.,negative
+145,20,Fits perfectly. wrong size. exceeded my expectations. used it a few times.,positive
+146,12,Great value for money. easy to use. very comfortable.,positive
+147,19,Not as described. very uncomfortable.,negative
+148,10,Disappointed. smells awful. bought this last month. flimsy and noisy.,negative
+149,18,Battery dies quickly. compared with other brands.,negative
+150,14,Fast delivery. great value for money.,positive
+151,8,Wrong size. ordered for my sister.,negative
+152,4,Do not recommend. amazing sound. sturdy and reliable.,positive
+153,11,Fell apart. the color is blue.,negative
+154,11,The color is blue. excellent quality. battery lasts long. beautiful design.,positive
+155,6,Love this product. great customer service. very comfortable.,positive
+156,6,My family loves it. compared with other brands. battery dies quickly. one star.,negative
+157,20,Wrong size.,negative
+158,8,Easy to use. the color is blue. beautiful design.,positive
+159,1,Very comfortable. stopped working. compared with other brands.,negative
+160,5,Never buying again.,negative
+161,2,Very comfortable. arrived on time and well packed. my family loves it.,positive
+162,17,Easy to use. beautiful design. arrived on time and well packed.,positive
+163,6,Got it on sale. would buy again.,positive
+164,14,Too expensive for what it is. never buying again.,negative
+165,13,Smells awful.,negative
+166,1,Very uncomfortable. do not recommend. package was damaged.,negative
+167,3,Stopped working. waste of money. do not recommend. got it on sale.,negative
+168,17,Excellent quality.,positive
+169,19,Stopped working. it came in a box. very uncomfortable.,negative
+170,3,Battery lasts long. fast delivery. smells wonderful.,positive
+171,10,Never buying again. stopped working.,negative
+172,11,Compared with other brands. arrived on time and well packed.,positive
+173,7,Flimsy and noisy.,negative
+174,8,Great value for money. my family loves it. ordered for my sister.,positive
+175,3,Poor customer service. very uncomfortable.,negative
+176,5,Not as described. do not recommend. it came in a box.,negative
+177,19,Arrived on time and well packed. sturdy and reliable. great customer service.,positive
+178,5,Never buying again.,negative
+179,17,Easy to use. excellent quality. sturdy and reliable.,positive
+180,9,Exceeded my expectations. five stars. amazing sound. disappointed.,positive
+181,11,Exceeded my expectations. would buy again. works perfectly. used it a few times.,positive
+182,5,Battery lasts long. excellent quality.,positive
+183,4,Would buy again. it came in a box. my family loves it.,positive
+184,20,Cheap material. very uncomfortable. flimsy and noisy.,negative
+185,11,Smells awful. package was damaged. great customer service.,negative
+186,3,Exceeded my expectations. smells wonderful.,positive
+187,4,Would buy again. compared with other brands. smells wonderful.,positive
+188,10,Never buying again. battery lasts long. used it a few times.,positive
+189,18,Smells wonderful. waste of money. great customer service. my family loves it.,positive
+190,1,Love this product. excellent quality.,positive
+191,2,Beautiful design.,positive
+192,5,Bought this last month. battery lasts long.,positive
+193,15,Fast delivery.,positive
+194,9,Waste of money. not as described. do not recommend. it came in a box. easy to use.,negative
+195,7,Would buy again. flimsy and noisy. the color is blue.,positive
+196,13,Used it a few times. arrived on time and well packed. very comfortable.,positive
+197,15,Sturdy and reliable. the color is blue.,positive
+198,10,Compared with other brands. smells wonderful.,positive
+199,4,Works perfectly.,positive
+200,19,Used it a few times. battery lasts long.,positive
+201,12,Package was damaged. disappointed.,negative
+202,18,Bought this last month. wrong size. arrived late.,negative
+203,9,Sturdy and reliable.,positive
+204,16,Smells awful. never buying again. arrived late.,negative
+205,15,Fast delivery. great customer service.,positive
+206,9,Very comfortable.,positive
+207,20,Super happy with it.,positive
+208,15,Battery lasts long. my family loves it.,positive
+209,3,Compared with other brands. smells awful.,negative
+210,18,Ordered for my sister. excellent quality. beautiful design.,positive
+211,3,Arrived on time and well packed. excellent quality. fits perfectly. got it on sale.,positive
+212,17,Flimsy and noisy. not as described. battery dies quickly.,negative
+213,15,Poor customer service. got it on sale. fits perfectly.,negative
+214,20,Got it on sale. exceeded my expectations.,positive
+215,5,Five stars. sturdy and reliable.,positive
+216,12,Fits perfectly. great customer service. bought this last month.,positive
+217,5,Poor customer service. flimsy and noisy. one star.,negative
+218,18,Great value for money.,positive
+219,20,Flimsy and noisy. smells wonderful.,positive
+220,9,Battery dies quickly. broke after a week. bought this last month. great value for money. not as described.,negative
+221,18,Great value for money. love this product.,positive
+222,11,Used it a few times. battery dies quickly.,negative
+223,4,Used it a few times. great value for money. fast delivery.,positive
+224,16,Very uncomfortable.,negative
+225,14,Great customer service.,positive
+226,13,Very comfortable. exceeded my expectations. excellent quality. it came in a box.,positive
+227,11,Great customer service. bought this last month.,positive
+228,20,Got it on sale. great value for money. exceeded my expectations. highly recommend.,positive
+229,12,Broke after a week. smells awful.,negative
+230,16,Poor customer service. cheap material. it came in a box.,negative
+231,3,Fits perfectly. great customer service. ordered for my sister. exceeded my expectations.,positive
+232,9,It came in a box. easy to use.,positive
+233,8,Great value for money. compared with other brands.,positive
+234,7,Fast delivery. used it a few times.,positive
+235,1,Package was damaged. cheap material. fell apart.,negative
+236,14,Battery lasts long. works perfectly.,positive
+237,7,My family loves it. got it on sale.,positive
+238,3,Broke after a week.,negative
+239,17,Exceeded my expectations. amazing sound. love this product. got it on sale.,positive
+240,12,Highly recommend. exceeded my expectations. arrived on time and well packed.,positive
+241,7,Exceeded my expectations. terrible quality. highly recommend.,positive
+242,15,One star. cheap material.,negative
+243,17,Works perfectly. very comfortable. great value for money.,positive
+244,10,Works perfectly. super happy with it. easy to use.,positive
+245,13,Five stars. easy to use. would buy again.,positive
+246,10,The color is blue. great customer service.,positive
+247,1,Terrible quality. too expensive for what it is. do not recommend. used it a few times.,negative
+248,11,Battery lasts long. great customer service. great value for money.,positive
+249,12,Highly recommend. got it on sale. broke after a week. disappointed.,negative
+250,1,Exceeded my expectations. beautiful design.,positive
+251,12,My family loves it. the color is blue. very comfortable.,positive
+252,2,Very comfortable. smells wonderful. would buy again.,positive
+253,17,Not as described. great value for money. package was damaged. wrong size.,negative
+254,9,Smells awful. never buying again.,negative
+255,6,Got it on sale. smells awful. wrong size. package was damaged.,negative
+256,9,Smells awful. bought this last month.,negative
+257,16,Got it on sale. fell apart.,negative
+258,7,Never buying again. too expensive for what it is.,negative
+259,11,Fell apart. compared with other brands. wrong size. broke after a week.,negative
+260,19,Terrible quality. used it a few times.,negative
+261,14,Wrong size.,negative
+262,15,Bought this last month. poor customer service.,negative
+263,14,Wrong size. arrived on time and well packed. the color is blue.,positive
+264,14,Cheap material. got it on sale. smells wonderful. great value for money.,positive
+265,14,Package was damaged. bought this last month. very uncomfortable. terrible quality.,negative
+266,16,Great value for money.,positive
+267,10,Terrible quality. arrived on time and well packed. one star. battery dies quickly.,negative
+268,10,It came in a box. arrived late. flimsy and noisy.,negative
+269,14,Exceeded my expectations. great customer service.,positive
+270,5,Disappointed. got it on sale. one star. too expensive for what it is.,negative
+271,1,Super happy with it. one star.,positive
+272,20,Excellent quality. would buy again. used it a few times. great customer service.,positive
+273,2,Amazing sound.,positive
+274,17,Sturdy and reliable. excellent quality. easy to use.,positive
+275,20,Sturdy and reliable. fits perfectly. great value for money.,positive
+276,9,Super happy with it. my family loves it.,positive
+277,15,The color is blue. my family loves it.,positive
+278,19,Great value for money. flimsy and noisy. the color is blue.,positive
+279,7,Wrong size. sturdy and reliable. it came in a box. great customer service.,positive
+280,10,Cheap material. terrible quality. the color is blue. fell apart.,negative
+281,14,My family loves it. amazing sound. it came in a box. beautiful design.,positive
+282,18,Excellent quality. works perfectly.,positive
+283,10,Fits perfectly. my family loves it. the color is blue.,positive
+284,6,It came in a box. package was damaged.,negative
+285,4,Never buying again. my family loves it. easy to use. works perfectly.,positive
+286,11,Stopped working. battery dies quickly. used it a few times. very uncomfortable.,negative
+287,16,Very uncomfortable.,negative
+288,2,Fast delivery. super happy with it. amazing sound. bought this last month.,positive
+289,17,Compared with other brands. would buy again. easy to use. broke after a week.,positive
+290,18,Smells wonderful. the color is blue.,positive
+291,12,Amazing sound.,positive
+292,20,Works perfectly. easy to use.,positive
+293,13,Excellent quality.,positive
+294,11,Compared with other brands. do not recommend. too expensive for what it is. disappointed.,negative
+295,3,Great value for money. got it on sale.,positive
+296,17,Five stars. very comfortable.,positive
+297,9,Fits perfectly.,positive
+298,4,Stopped working. poor customer service.,negative
+299,5,Great customer service.,positive
+300,6,It came in a box. cheap material. wrong size.,negative
+301,7,Bought this last month. broke after a week.,negative
+302,13,Terrible quality. got it on sale.,negative
+303,1,Works perfectly. bought this last month. love this product. fast delivery.,positive
+304,15,Too expensive for what it is. amazing sound.,positive
+305,13,Battery lasts long.,positive
+306,3,Used it a few times. cheap material.,negative
+307,13,Got it on sale. my family loves it. works perfectly. great value for money.,positive
+308,17,Fast delivery.,positive
+309,19,Smells awful. arrived late.,negative
+310,13,Ordered for my sister. sturdy and reliable.,positive
+311,10,Exceeded my expectations.,positive
+312,6,Stopped working. smells awful.,negative
+313,16,Fell apart. bought this last month.,negative
+314,11,Used it a few times. works perfectly.,positive
+315,9,Super happy with it. returned it.,positive
+316,6,Amazing sound. my family loves it. fast delivery.,positive
+317,7,One star. too expensive for what it is. flimsy and noisy.,negative
+318,4,Arrived on time and well packed. the color is blue. sturdy and reliable. super happy with it.,positive
+319,10,Works perfectly.,positive
+320,8,Very comfortable. five stars. battery lasts long.,positive
+321,19,Cheap material. stopped working. package was damaged.,negative
+322,9,Ordered for my sister. wrong size.,negative
+323,15,The color is blue. beautiful design.,positive
+324,6,Fast delivery.,positive
+325,8,Love this product. exceeded my expectations. used it a few times. disappointed. great customer service.,positive
+326,2,Poor customer service. very uncomfortable.,negative
+327,19,Fell apart. compared with other brands.,negative
+328,12,Used it a few times. works perfectly.,positive
+329,11,Ordered for my sister. amazing sound. arrived on time and well packed.,positive
+330,6,Ordered for my sister. wrong size.,negative
+331,15,Fits perfectly. excellent quality.,positive
+332,14,Five stars. not as described. disappointed.,negative
+333,11,Works perfectly. stopped working.,positive
+334,7,Returned it. fell apart.,negative
+335,19,Excellent quality. exceeded my expectations.,positive
+336,16,Very uncomfortable. wrong size.,negative
+337,18,Smells wonderful. broke after a week. ordered for my sister.,positive
+338,2,Battery lasts long. love this product.,positive
+339,5,Cheap material. compared with other brands. wrong size. battery dies quickly.,negative
+340,15,Compared with other brands. fits perfectly.,positive
+341,5,Used it a few times. poor customer service. do not recommend. one star.,negative
+342,13,Returned it. poor customer service. package was damaged.,negative
+343,7,Exceeded my expectations. beautiful design. the color is blue.,positive
+344,11,Would buy again. do not recommend.,negative
+345,18,Love this product. exceeded my expectations. cheap material. fits perfectly.,positive
+346,16,Very comfortable. bought this last month. fits perfectly. would buy again.,positive
+347,7,Five stars. disappointed. battery dies quickly. got it on sale.,negative
+348,16,Great value for money. would buy again.,positive
+349,7,Got it on sale. fell apart. smells awful. disappointed.,negative
+350,17,It came in a box. poor customer service. smells wonderful. stopped working.,negative
+351,11,Smells wonderful. five stars. battery lasts long.,positive
+352,13,Bought this last month. works perfectly. five stars.,positive
+353,4,My family loves it. compared with other brands.,positive
+354,5,Ordered for my sister. arrived on time and well packed. smells wonderful.,positive
+355,16,Bought this last month. works perfectly. highly recommend.,positive
+356,6,Fell apart. one star. compared with other brands.,negative
+357,2,Arrived on time and well packed. one star. bought this last month.,positive
+358,14,It came in a box. too expensive for what it is. arrived late.,negative
+359,17,Easy to use. exceeded my expectations.,positive
+360,14,My family loves it. fits perfectly. would buy again.,positive
+361,15,Poor customer service. disappointed. used it a few times.,negative
+362,8,Amazing sound. highly recommend.,positive
+363,8,Stopped working.,negative
+364,11,Very comfortable.,positive
+365,19,Fits perfectly. used it a few times. works perfectly.,positive
+366,13,Highly recommend. the color is blue. smells wonderful.,positive
+367,19,Disappointed. compared with other brands. terrible quality. stopped working.,negative
+368,1,Wrong size. compared with other brands. never buying again. terrible quality.,negative
+369,8,Returned it. ordered for my sister. very uncomfortable.,negative
+370,13,Arrived late. the color is blue. terrible quality. super happy with it. smells awful.,negative
+371,11,Ordered for my sister. great customer service.,positive
+372,17,Easy to use. great customer service.,positive
+373,12,Amazing sound.,positive
+374,1,Flimsy and noisy. do not recommend. used it a few times. never buying again.,negative
+375,15,Very comfortable. ordered for my sister. amazing sound. easy to use.,positive
+376,13,Got it on sale. smells awful. five stars.,negative
+377,2,Excellent quality. my family loves it. highly recommend.,positive
+378,1,Wrong size.,negative
+379,17,Amazing sound. would buy again. my family loves it.,positive
+380,12,The color is blue. poor customer service.,negative
+381,7,Ordered for my sister. too expensive for what it is.,negative
+382,2,Great customer service. ordered for my sister. not as described. package was damaged.,negative
+383,10,Cheap material. battery dies quickly. used it a few times. arrived late.,negative
+384,12,Fits perfectly. used it a few times. cheap material.,negative
+385,12,Great value for money. compared with other brands.,positive
+386,5,Arrived on time and well packed. arrived late. bought this last month.,positive
+387,10,Super happy with it. it came in a box. my family loves it.,positive
+388,9,My family loves it. smells wonderful. great value for money.,positive
+389,1,Cheap material. fell apart. smells awful. bought this last month.,negative
+390,16,Poor customer service. fits perfectly. wrong size. battery dies quickly.,negative
+391,6,Smells awful. do not recommend. fast delivery. arrived late. it came in a box.,negative
+392,2,Not as described. the color is blue. broke after a week.,negative
+393,12,Never buying again. the color is blue. wrong size.,negative
+394,6,Waste of money. great value for money. the color is blue.,negative
+395,19,Fits perfectly. terrible quality.,positive
+396,9,Great value for money. very comfortable. bought this last month. excellent quality.,positive
+397,4,Waste of money. sturdy and reliable. arrived on time and well packed.,positive
+398,18,Very uncomfortable. smells wonderful. flimsy and noisy. ordered for my sister.,negative
+399,18,Fast delivery. bought this last month. exceeded my expectations. smells wonderful.,positive
+400,3,Excellent quality. beautiful design. my family loves it.,positive
+401,14,Stopped working. would buy again.,positive
+402,3,Five stars.,positive
+403,10,Got it on sale. love this product. exceeded my expectations. super happy with it.,positive
+404,19,Fell apart. very uncomfortable. terrible quality.,negative
+405,11,Waste of money. broke after a week.,negative
+406,7,Never buying again. fell apart. beautiful design. bought this last month.,negative
+407,3,Disappointed. flimsy and noisy. too expensive for what it is.,negative
+408,7,Very uncomfortable. too expensive for what it is.,negative
+409,15,Great customer service. love this product. sturdy and reliable.,positive
+410,3,Used it a few times. battery lasts long. five stars. works perfectly.,positive
+411,13,Smells wonderful.,positive
+412,18,Compared with other brands. easy to use. exceeded my expectations. super happy with it.,positive
+413,20,Exceeded my expectations. beautiful design. easy to use.,positive
+414,20,Highly recommend. exceeded my expectations. fits perfectly.,positive
+415,3,Battery lasts long. fast delivery. ordered for my sister. five stars.,positive
+416,6,Five stars. super happy with it.,positive
+417,2,Highly recommend. compared with other brands. great customer service.,positive
+418,19,Battery lasts long. amazing sound. got it on sale. broke after a week.,positive
+419,12,Ordered for my sister. wrong size. waste of money.,negative
+420,11,Ordered for my sister. cheap material. one star.,negative
+421,17,Never buying again.,negative
+422,3,Great customer service. got it on sale.,positive
+423,19,The color is blue. exceeded my expectations.,positive
+424,20,Flimsy and noisy. it came in a box. beautiful design. waste of money. smells awful.,negative
+425,19,Great customer service. sturdy and reliable. arrived on time and well packed.,positive
+426,5,The color is blue. poor customer service.,negative
+427,10,Five stars. ordered for my sister. beautiful design.,positive
+428,3,Amazing sound.,positive
+429,16,Great customer service. works perfectly.,positive
+430,1,Arrived late. stopped working.,negative
+431,2,Wrong size. battery dies quickly.,negative
+432,15,One star. stopped working. terrible quality.,negative
+433,9,Package was damaged.,negative
+434,10,Highly recommend. sturdy and reliable. very comfortable.,positive
+435,20,Too expensive for what it is. waste of money.,negative
+436,16,It came in a box. fits perfectly.,positive
+437,5,My family loves it. battery lasts long. sturdy and reliable.,positive
+438,1,Works perfectly. great customer service. highly recommend. bought this last month.,positive
+439,18,Used it a few times. super happy with it. too expensive for what it is.,positive
+440,18,Used it a few times. my family loves it.,positive
+441,11,Do not recommend. never buying again. package was damaged.,negative
+442,2,Returned it. got it on sale. arrived late.,negative
+443,1,Disappointed.,negative
+444,19,Broke after a week. amazing sound. not as described. it came in a box.,negative
+445,18,Bought this last month. works perfectly.,positive
+446,1,Fell apart. would buy again. very comfortable.,positive
+447,16,Highly recommend. easy to use. it came in a box.,positive
+448,18,Returned it. the color is blue. broke after a week. flimsy and noisy.,negative
+449,1,Flimsy and noisy. never buying again.,negative
+450,7,My family loves it. fast delivery.,positive
+451,11,Exceeded my expectations. fits perfectly. highly recommend.,positive
+452,13,Used it a few times. wrong size.,negative
+453,18,Got it on sale. exceeded my expectations.,positive
+454,16,It came in a box. arrived on time and well packed.,positive
+455,8,Flimsy and noisy. the color is blue.,negative
+456,18,Arrived on time and well packed. poor customer service. my family loves it. the color is blue. very comfortable.,positive
+457,9,Works perfectly. bought this last month. beautiful design. amazing sound.,positive
+458,15,Wrong size. it came in a box. poor customer service.,negative
+459,7,Ordered for my sister. arrived on time and well packed.,positive
+460,8,Arrived on time and well packed. the color is blue. smells wonderful. excellent quality.,positive
+461,18,Broke after a week. highly recommend.,positive
+462,15,Exceeded my expectations. love this product. very comfortable.,positive
+463,6,My family loves it. fits perfectly.,positive
+464,4,Battery dies quickly. got it on sale.,negative
+465,1,Amazing sound. the color is blue. highly recommend. sturdy and reliable.,positive
+466,5,Battery dies quickly. cheap material.,negative
+467,19,Do not recommend. wrong size. it came in a box. very uncomfortable.,negative
+468,6,Wrong size. flimsy and noisy. it came in a box. waste of money.,negative
+469,8,Disappointed. not as described.,negative
+470,6,Wrong size. not as described. smells awful.,negative
+471,15,Battery lasts long. beautiful design. highly recommend. used it a few times.,positive
+472,8,Ordered for my sister. fast delivery.,positive
+473,18,It came in a box. my family loves it.,positive
+474,4,Very comfortable. fast delivery. arrived on time and well packed. it came in a box.,positive
+475,19,Returned it. broke after a week.,negative
+476,15,Never buying again. returned it. broke after a week.,negative
+477,1,Highly recommend.,positive
+478,9,Great customer service. arrived on time and well packed.,positive
+479,5,Highly recommend. arrived on time and well packed. very comfortable.,positive
+480,2,It came in a box. poor customer service. exceeded my expectations. wrong size.,negative
+481,14,Fits perfectly. fast delivery.,positive
+482,2,Package was damaged. amazing sound.,positive
+483,12,Excellent quality. it came in a box. fits perfectly. exceeded my expectations.,positive
+484,11,Package was damaged. ordered for my sister. not as described.,negative
+485,8,Fits perfectly. the color is blue. fell apart.,positive
+486,19,The color is blue. returned it.,negative
+487,18,Exceeded my expectations. got it on sale. would buy again.,positive
+488,15,Very comfortable. highly recommend. amazing sound. compared with other brands.,positive
+489,17,Love this product. amazing sound. would buy again. package was damaged.,positive
+490,12,Love this product.,positive
+491,13,Arrived late. too expensive for what it is.,negative
+492,10,One star. not as described.,negative
+493,5,Fast delivery. my family loves it. amazing sound.,positive
+494,18,Got it on sale. very comfortable.,positive
+495,11,Great customer service.,positive
+496,7,Wrong size. bought this last month.,negative
+497,6,Compared with other brands. arrived on time and well packed. fits perfectly.,positive
+498,9,Used it a few times. stopped working. disappointed. super happy with it.,negative
+499,17,Great customer service. easy to use. great value for money. compared with other brands.,positive
+500,3,Never buying again. battery dies quickly.,negative
+501,18,Fast delivery. love this product. my family loves it.,positive
+502,18,Highly recommend. five stars.,positive
+503,16,Fell apart. returned it.,negative
+504,17,Do not recommend. it came in a box. smells awful. very uncomfortable.,negative
+505,14,Five stars. smells wonderful.,positive
+506,1,Terrible quality. easy to use. never buying again. smells awful.,negative
+507,19,Fell apart. battery dies quickly. arrived late.,negative
+508,2,Never buying again.,negative
+509,10,Excellent quality.,positive
+510,3,Love this product. ordered for my sister. great customer service. five stars.,positive
+511,5,Never buying again. wrong size. used it a few times. arrived late.,negative
+512,16,Amazing sound. very comfortable.,positive
+513,2,Arrived on time and well packed. sturdy and reliable.,positive
+514,1,Exceeded my expectations. beautiful design. the color is blue. five stars.,positive
+515,12,Smells wonderful. bought this last month. works perfectly. beautiful design.,positive
+516,2,Wrong size. smells awful. ordered for my sister. never buying again.,negative
+517,11,Arrived late. it came in a box. stopped working. super happy with it.,negative
+518,11,Got it on sale. fits perfectly.,positive
+519,8,Fell apart. battery dies quickly.,negative
+520,10,Amazing sound. it came in a box. fits perfectly.,positive
+521,11,Sturdy and reliable. fits perfectly. works perfectly.,positive
+522,13,Fast delivery. very comfortable. easy to use.,positive
+523,20,Battery lasts long. used it a few times. fits perfectly. cheap material. great customer service.,positive
+524,12,Exceeded my expectations. beautiful design.,positive
+525,20,Five stars. very comfortable. fits perfectly.,positive
+526,2,Disappointed. smells wonderful. super happy with it.,positive
+527,19,My family loves it. smells wonderful. used it a few times.,positive
+528,20,Ordered for my sister. waste of money.,negative
+529,3,Got it on sale. poor customer service. returned it. never buying again.,negative
+530,20,Highly recommend. wrong size. got it on sale.,negative
+531,4,Poor customer service.,negative
+532,8,Beautiful design. love this product. my family loves it. compared with other brands.,positive
+533,19,Love this product. arrived on time and well packed.,positive
+534,7,Would buy again.,positive
+535,5,Smells awful. my family loves it.,positive
+536,20,Bought this last month. stopped working. poor customer service.,negative
+537,13,Terrible quality. got it on sale.,negative
+538,6,Ordered for my sister. fell apart.,negative
+539,9,Disappointed. compared with other brands.,negative
+540,15,Highly recommend. great value for money. compared with other brands.,positive
+541,7,Exceeded my expectations.,positive
+542,6,Fits perfectly. exceeded my expectations. excellent quality.,positive
+543,1,Broke after a week. would buy again.,positive
+544,8,Beautiful design. fast delivery.,positive
+545,3,Never buying again.,negative
+546,18,The color is blue. one star. cheap material.,negative
+547,13,Stopped working. the color is blue. package was damaged.,negative
+548,11,Amazing sound. battery lasts long. it came in a box.,positive
+549,16,Waste of money. smells awful.,negative
+550,1,Battery lasts long. my family loves it. compared with other brands.,positive
+551,19,Super happy with it. my family loves it. great value for money.,positive
+552,14,Ordered for my sister. flimsy and noisy. broke after a week. never buying again.,negative
+553,16,Package was damaged.,negative
+554,4,Too expensive for what it is. flimsy and noisy. package was damaged.,negative
+555,14,Ordered for my sister. arrived on time and well packed.,positive
+556,14,The color is blue. super happy with it.,positive
+557,7,Cheap material. not as described. got it on sale.,negative
+558,3,Would buy again. waste of money.,negative
+559,3,Too expensive for what it is. battery dies quickly. never buying again.,negative
+560,19,Exceeded my expectations. got it on sale. fits perfectly.,positive
+561,1,Fell apart. arrived late. got it on sale. smells wonderful.,negative
+562,5,Great customer service. compared with other brands.,positive
+563,12,Excellent quality.,positive
+564,17,Broke after a week. great value for money. ordered for my sister. love this product.,positive
+565,3,The color is blue. broke after a week.,negative
+566,10,Compared with other brands. arrived on time and well packed.,positive
+567,4,Great value for money. waste of money.,positive
+568,20,Arrived on time and well packed. stopped working. beautiful design. the color is blue. fits perfectly.,positive
+569,10,Ordered for my sister. smells awful. do not recommend.,negative
+570,5,Stopped working. not as described.,negative
+571,1,Beautiful design. excellent quality. bought this last month.,positive
+572,3,Amazing sound. sturdy and reliable. the color is blue. super happy with it.,positive
+573,17,Not as described. flimsy and noisy.,negative
+574,18,Sturdy and reliable. smells wonderful.,positive
+575,8,Do not recommend. returned it. package was damaged.,negative
+576,3,My family loves it.,positive
+577,6,Smells awful. got it on sale. not as described. never buying again.,negative
+578,7,Love this product.,positive
+579,18,Super happy with it.,positive
+580,10,Amazing sound. excellent quality.,positive
+581,16,Arrived on time and well packed.,positive
+582,1,Excellent quality. battery lasts long. bought this last month. beautiful design.,positive
+583,20,Fast delivery. bought this last month.,positive
+584,11,Works perfectly. fits perfectly.,positive
+585,16,One star. beautiful design. my family loves it. excellent quality.,positive
+586,11,Not as described.,negative
+587,18,My family loves it. arrived on time and well packed. not as described. easy to use.,positive
+588,11,Used it a few times. super happy with it. would buy again.,positive
+589,5,Bought this last month. arrived late. super happy with it.,positive
+590,16,Very comfortable. easy to use.,positive
+591,9,Love this product. ordered for my sister.,positive
+592,10,Compared with other brands. smells wonderful. great customer service. easy to use. very uncomfortable.,positive
+593,13,Cheap material. smells awful. too expensive for what it is.,negative
+594,18,Fell apart. arrived late. cheap material.,negative
+595,6,Beautiful design. got it on sale. smells wonderful.,positive
+596,19,My family loves it.,positive
+597,20,Five stars.,positive
+598,7,Terrible quality. broke after a week. wrong size.,negative
+599,11,Cheap material. waste of money. package was damaged.,negative
+600,11,Arrived on time and well packed.,positive
+601,1,It came in a box. returned it. poor customer service. wrong size.,negative
+602,2,Beautiful design. it came in a box.,positive
+603,7,Bought this last month. super happy with it. love this product.,positive
+604,12,Fast delivery. bought this last month.,positive
+605,9,Very uncomfortable. waste of money. battery dies quickly.,negative
+606,4,Ordered for my sister. great customer service.,positive
+607,8,Bought this last month. fits perfectly.,positive
+608,19,Amazing sound.,positive
+609,1,Very uncomfortable. beautiful design. very comfortable.,positive
+610,16,Smells wonderful. terrible quality. got it on sale.,negative
+611,17,Bought this last month. smells wonderful.,positive
+612,12,Not as described.,negative
+613,7,Disappointed. waste of money. compared with other brands.,negative
+614,10,One star. disappointed.,negative
+615,5,Arrived on time and well packed.,positive
+616,10,Beautiful design. great customer service.,positive
+617,2,Great value for money. terrible quality. it came in a box.,negative
+618,15,Battery lasts long. got it on sale.,positive
+619,14,Fast delivery. battery lasts long. love this product.,positive
+620,19,Bought this last month. five stars.,positive
+621,12,Smells awful. got it on sale.,negative
+622,17,Not as described. the color is blue.,negative
+623,16,Returned it. broke after a week. disappointed.,negative
+624,6,Five stars. would buy again. compared with other brands.,positive
+625,10,Ordered for my sister. beautiful design. battery lasts long. would buy again.,positive
+626,12,Arrived on time and well packed. super happy with it. it came in a box. exceeded my expectations.,positive
+627,15,Would buy again. beautiful design. love this product.,positive
+628,12,Do not recommend.,negative
+629,18,Exceeded my expectations. fits perfectly. smells wonderful.,positive
+630,19,Great customer service. sturdy and reliable.,positive
+631,1,Wrong size. fell apart.,negative
+632,17,The color is blue. highly recommend.,positive
+633,18,Package was damaged. would buy again.,positive
+634,7,Stopped working. compared with other brands. never buying again. one star.,negative
+635,7,Battery dies quickly. smells awful.,negative
+636,10,Would buy again. used it a few times.,positive
+637,8,Bought this last month. love this product.,positive
+638,16,Smells wonderful. very comfortable. easy to use.,positive
+639,6,Too expensive for what it is. disappointed.,negative
+640,13,Arrived on time and well packed. highly recommend. used it a few times.,positive
+641,4,Very uncomfortable.,negative
+642,11,Disappointed. package was damaged. the color is blue. too expensive for what it is.,negative
+643,15,Love this product. very comfortable. arrived on time and well packed.,positive
+644,18,Five stars. exceeded my expectations. easy to use.,positive
+645,1,The color is blue. five stars.,positive
+646,8,Super happy with it. excellent quality. fast delivery.,positive
+647,16,Great value for money.,positive
+648,12,Sturdy and reliable. used it a few times.,positive
+649,6,Amazing sound. smells wonderful.,positive
+650,11,The color is blue. poor customer service.,negative
+651,4,Bought this last month. very uncomfortable. flimsy and noisy.,negative
+652,14,Wrong size. flimsy and noisy. arrived late. excellent quality.,negative
+653,1,Waste of money. one star.,negative
+654,5,Ordered for my sister. not as described.,negative
+655,11,Great value for money. sturdy and reliable.,positive
+656,10,Arrived late. flimsy and noisy. used it a few times. easy to use. returned it.,negative
+657,1,My family loves it. bought this last month. never buying again. five stars.,positive
+658,13,Sturdy and reliable. one star.,positive
+659,7,Great customer service. amazing sound.,positive
+660,6,Love this product. exceeded my expectations. great customer service.,positive
+661,11,Never buying again. compared with other brands.,negative
+662,6,Waste of money. terrible quality.,negative
+663,2,Love this product. very comfortable. my family loves it.,positive
+664,10,Fast delivery. exceeded my expectations. smells wonderful.,positive
+665,7,Arrived late.,negative
+666,1,Disappointed. smells awful. one star.,negative
+667,20,Waste of money. one star. compared with other brands.,negative
+668,14,Very comfortable. highly recommend.,positive
+669,6,Works perfectly. got it on sale. sturdy and reliable.,positive
+670,1,Too expensive for what it is. wrong size. very uncomfortable.,negative
+671,20,Excellent quality. great customer service.,positive
+672,11,Very uncomfortable. terrible quality.,negative
+673,15,Smells wonderful. one star. my family loves it. five stars.,positive
+674,3,Very comfortable. used it a few times.,positive
+675,8,Great value for money. highly recommend. my family loves it.,positive
+676,15,Beautiful design. love this product. the color is blue. exceeded my expectations.,positive
+677,4,Arrived on time and well packed.,positive
+678,2,Beautiful design. sturdy and reliable. got it on sale.,positive
+679,5,Returned it. arrived on time and well packed.,negative
+680,9,Terrible quality. do not recommend.,negative
+681,2,Excellent quality. the color is blue. works perfectly.,positive
+682,20,Exceeded my expectations. used it a few times.,positive
+683,7,Arrived on time and well packed. it came in a box.,positive
+684,15,It came in a box. my family loves it. very comfortable. battery lasts long.,positive
+685,16,Love this product. highly recommend. fast delivery.,positive
+686,18,Terrible quality. do not recommend. arrived late.,negative
+687,9,Fits perfectly. easy to use. arrived on time and well packed.,positive
+688,1,Arrived late.,negative
+689,19,Smells awful. battery lasts long.,negative
+690,3,Used it a few times. great customer service.,positive
+691,2,Do not recommend.,negative
+692,10,Ordered for my sister. very comfortable.,positive
+693,7,Exceeded my expectations. it came in a box. highly recommend. works perfectly.,positive
+694,3,Easy to use. the color is blue. five stars. arrived on time and well packed.,positive
+695,8,Got it on sale. package was damaged.,negative
+696,15,Excellent quality. super happy with it. works perfectly. used it a few times.,positive
+697,15,Love this product.,positive
+698,15,Do not recommend. package was damaged. cheap material.,negative
+699,11,Too expensive for what it is. not as described.,negative
+700,6,Do not recommend.,negative
+701,9,Highly recommend. smells wonderful. used it a few times.,positive
+702,12,Stopped working.,negative
+703,17,Five stars. smells wonderful.,positive
+704,1,Exceeded my expectations. sturdy and reliable. bought this last month.,positive
+705,1,Exceeded my expectations.,positive
+706,19,Never buying again. battery dies quickly. not as described. the color is blue.,negative
+707,19,Cheap material. not as described.,negative
+708,2,Poor customer service. waste of money. package was damaged.,negative
+709,18,Exceeded my expectations. easy to use. highly recommend.,positive
+710,10,Sturdy and reliable. excellent quality. got it on sale. super happy with it.,positive
+711,4,Cheap material. arrived late.,negative
+712,14,Highly recommend. got it on sale. do not recommend. super happy with it.,positive
+713,9,The color is blue. easy to use. great value for money.,positive
+714,13,Compared with other brands. package was damaged.,negative
+715,7,Sturdy and reliable. arrived late.,positive
+716,17,Highly recommend. exceeded my expectations. arrived on time and well packed. got it on sale.,positive
+717,15,Broke after a week. got it on sale.,negative
+718,20,Arrived late. it came in a box.,negative
+719,12,Great customer service. beautiful design. arrived on time and well packed.,positive
+720,7,Smells awful. compared with other brands.,negative
+721,3,Sturdy and reliable. amazing sound. would buy again.,positive
+722,14,Amazing sound. arrived on time and well packed. terrible quality.,positive
+723,17,Five stars. very comfortable. highly recommend.,positive
+724,3,The color is blue. fast delivery.,positive
+725,1,Sturdy and reliable. package was damaged. stopped working. arrived late. the color is blue.,negative
+726,5,Got it on sale. amazing sound. works perfectly. fits perfectly.,positive
+727,8,Very uncomfortable. do not recommend. waste of money.,negative
+728,5,Five stars. ordered for my sister. works perfectly. smells wonderful.,positive
+729,19,Fast delivery. works perfectly.,positive
+730,16,Great customer service.,positive
+731,2,Excellent quality.,positive
+732,8,Ordered for my sister. great customer service.,positive
+733,19,Beautiful design. do not recommend.,positive
+734,8,The color is blue. super happy with it. my family loves it.,positive
+735,6,The color is blue. battery lasts long. arrived on time and well packed. works perfectly.,positive
+736,16,Battery lasts long. great customer service.,positive
+737,7,Arrived on time and well packed. used it a few times. my family loves it.,positive
+738,8,Smells wonderful. excellent quality. the color is blue.,positive
+739,17,Stopped working. wrong size.,negative
+740,18,Do not recommend. the color is blue.,negative
+741,11,Poor customer service. love this product. it came in a box.,negative
+742,1,Beautiful design. smells wonderful. used it a few times.,positive
+743,11,Terrible quality. waste of money. ordered for my sister.,negative
+744,2,Used it a few times. great value for money.,positive
+745,16,Great value for money. poor customer service.,negative
+746,6,Great customer service.,positive
+747,5,Arrived on time and well packed. sturdy and reliable. it came in a box.,positive
+748,2,Great customer service. highly recommend. exceeded my expectations.,positive
+749,8,Do not recommend. package was damaged. very uncomfortable.,negative
+750,17,Disappointed. not as described.,negative
+751,7,My family loves it. easy to use. love this product.,positive
+752,11,Returned it. bought this last month. never buying again. poor customer service.,negative
+753,11,Flimsy and noisy. do not recommend. it came in a box.,negative
+754,8,It came in a box. arrived on time and well packed.,positive
+755,6,Smells wonderful.,positive
+756,7,Waste of money. do not recommend.,negative
+757,5,Terrible quality. got it on sale. very uncomfortable. battery dies quickly. my family loves it.,negative
+758,15,Smells wonderful. exceeded my expectations. would buy again.,positive
+759,7,Used it a few times. great value for money. battery lasts long.,positive
+760,16,Smells wonderful. excellent quality. battery lasts long.,positive
+761,7,It came in a box. never buying again.,negative
+762,14,My family loves it. got it on sale.,positive
+763,5,Highly recommend.,positive
+764,18,Ordered for my sister. easy to use.,positive
+765,11,Smells wonderful. got it on sale. fits perfectly. super happy with it.,positive
+766,7,Exceeded my expectations. do not recommend. sturdy and reliable. great value for money.,positive
+767,7,My family loves it. five stars. arrived on time and well packed. used it a few times.,positive
+768,16,Package was damaged. the color is blue. returned it. never buying again.,negative
+769,12,Terrible quality. arrived late.,negative
+770,14,The color is blue. smells wonderful.,positive
+771,8,Exceeded my expectations. wrong size. ordered for my sister.,negative
+772,8,Great value for money. my family loves it. exceeded my expectations.,positive
+773,9,My family loves it. easy to use.,positive
+774,2,Easy to use. super happy with it. bought this last month.,positive
+775,10,Highly recommend. my family loves it.,positive
+776,17,Very comfortable. great customer service. exceeded my expectations.,positive
+777,14,Broke after a week. terrible quality. compared with other brands.,negative
+778,7,Works perfectly.,positive
+779,17,Amazing sound. ordered for my sister. love this product. highly recommend.,positive
+780,20,Would buy again. fast delivery. great value for money.,positive
+781,17,Fell apart. flimsy and noisy. stopped working.,negative
+782,8,Package was damaged. arrived late. terrible quality.,negative
+783,10,Exceeded my expectations. bought this last month. too expensive for what it is. fits perfectly. my family loves it.,positive
+784,1,Easy to use.,positive
+785,13,Great customer service. easy to use. compared with other brands. sturdy and reliable.,positive
+786,5,Exceeded my expectations. battery lasts long. amazing sound.,positive
+787,6,Amazing sound. would buy again. got it on sale. great value for money.,positive
+788,3,The color is blue. smells wonderful.,positive
+789,7,Would buy again. flimsy and noisy. sturdy and reliable.,positive
+790,9,Compared with other brands. fast delivery.,positive
+791,15,Great value for money. the color is blue.,positive
+792,1,Easy to use. used it a few times. beautiful design. excellent quality.,positive
+793,2,Great value for money.,positive
+794,7,Sturdy and reliable. highly recommend. five stars.,positive
+795,5,Great customer service. works perfectly. compared with other brands. my family loves it.,positive
+796,18,Returned it.,negative
+797,11,Love this product. used it a few times.,positive
+798,20,Five stars. very comfortable. easy to use.,positive
+799,16,Bought this last month. returned it. one star.,negative
+800,18,Very comfortable. compared with other brands.,positive
